@@ -18,7 +18,7 @@
       }
       #floating-panel {
         position: absolute;
-        top: 10px;
+        bottom: -15px;
         left: 25%;
         z-index: 5;
         background-color: #fff;
@@ -57,7 +57,8 @@
         var directionsDisplay = new google.maps.DirectionsRenderer;
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 13,
-          center: {lat: 39.32, lng: 23.15} 
+          center: {lat: 39.32, lng: 23.15},
+          mapTypeId: 'terrain'
         });
         directionsDisplay.setMap(map);
 

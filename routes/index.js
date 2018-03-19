@@ -23,6 +23,10 @@ router.get('/map', function(req, res){
   res.sendfile(__dirname + '/public/map.html');
 });
 
+router.get('/tsagarada', function(req, res){
+  res.sendfile(__dirname + '/public/tsagarada.html');
+});
+
 
 module.exports = router;
 
