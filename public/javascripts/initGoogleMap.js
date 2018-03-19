@@ -31,9 +31,7 @@ calcRoute(); /*  */
 }
 
 
-  //not needed 
-  //    
- //initMap();
+ 
 
     //src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-GWLI8Oec4D58yOrF1PWp9QkjrSdrngM&callback=initMap"
     
