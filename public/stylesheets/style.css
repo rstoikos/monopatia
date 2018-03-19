@@ -253,5 +253,7 @@ footer ul {
   list-style: none;
 }
 #map {
-  height: 350px;
+  height: 500px;
+  
+  margin: auto;
 }
