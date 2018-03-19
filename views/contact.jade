@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    div(style="padding: 50px;")
+        h1= title
+        span Welcome to #{title}! 
+    div(id="map-canvas")
+  
+    script(type='text/javascript', src='http://maps.googleapis.com/maps/api/js?key=AIzaSyD-GWLI8Oec4D58yOrF1PWp9QkjrSdrngM&sensor=true')
+
+    script(type='text/javascript', src='/javascripts/initGoogleMap.js')

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    
+        h1= title
+        span Welcome to #{title}!
+        div(id="map")
+           script(type='text/javascript', src='/javascripts/initGoogleMap.js')
+           script(type='text/javascript', src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-GWLI8Oec4D58yOrF1PWp9QkjrSdrngM&callback=initMap")
+
+
+
+          
+    
+
+
